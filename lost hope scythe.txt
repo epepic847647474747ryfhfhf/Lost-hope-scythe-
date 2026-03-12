@@ -2124,13 +2124,14 @@ while true do
 	end
 end
 
-task.wait(5)
+task.wait(3)
 
 -- Configuration
 local targetModelName = " 207𝚉𝚎𝚗𝚍𝚎𝚢" -- Change to your model's name in Workspace
 local targetPartName = "HandlePart" -- Part on the model to attach to
 local accessoryName = "Accessory (Plane.001Accessory)" -- Name of the hat
 
+-- CUSTOMIZE THESE VALUES
 local positionOffset = Vector3.new(0, 0, 0) -- X (side), Y (up/down), Z (forward/back)
 local rotationOffset = Vector3.new(0, 90, -59) -- XYZ rotation (degrees)
 
@@ -2185,7 +2186,4 @@ newWeld.C0 = CFrame.new(positionOffset) * CFrame.Angles(
 
 newWeld.Parent = handle
 
-print("eagle ")
-
-
-
+print("Accessory welded to " .. targetModelName .. ":" .. targetPartName)
