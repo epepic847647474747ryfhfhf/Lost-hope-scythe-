@@ -2124,10 +2124,10 @@ while true do
 	end
 end
 
-task.wait(3)
+task.wait(5)
 
 -- Configuration
-local targetModelName = "207𝚉𝚎𝚗𝚍𝚎𝚢" -- Change to your model's name in Workspace
+local targetModelName = " 207𝚉𝚎𝚗𝚍𝚎𝚢" -- Change to your model's name in Workspace
 local targetPartName = "HandlePart" -- Part on the model to attach to
 local accessoryName = "Accessory (Plane.001Accessory)" -- Name of the hat
 
@@ -2186,5 +2186,6 @@ newWeld.C0 = CFrame.new(positionOffset) * CFrame.Angles(
 newWeld.Parent = handle
 
 print("eagle ")
+
 
 
