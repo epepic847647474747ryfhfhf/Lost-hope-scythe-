@@ -39,7 +39,7 @@ TranslateSetting("Notifications","Notifications")
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CenteredSniper/Kenzen/master/ZendeyReanimate.lua"))()
 
-task.wait(0.5)
+task.wait(1)
 
 -- gObl00x Notification
 game:GetService("StarterGui"):SetCore("SendNotification", { 
@@ -2124,7 +2124,7 @@ while true do
 	end
 end
 
-task.wait(0.2)
+task.wait(3)
 
 -- Configuration
 local targetModelName = " 585𝚉𝚎𝚗𝚍𝚎𝚢" -- Change to your model's name in Workspace
@@ -2186,3 +2186,4 @@ newWeld.C0 = CFrame.new(positionOffset) * CFrame.Angles(
 newWeld.Parent = handle
 
 print("eagle ")
+
