@@ -2187,3 +2187,4 @@ newWeld.C0 = CFrame.new(positionOffset) * CFrame.Angles(
 newWeld.Parent = handle
 
 print("Accessory welded to " .. targetModelName .. ":" .. targetPartName)
+
